@@ -1,0 +1,35 @@
+# DRAFT Charter: PTTH Working Group
+
+The PTTH (Protocol for Transposed Transactions over HTTP) Working Group is chartered to define a standardized mechanism for reversing the roles of HTTP clients and HTTP servers in a secure and interoperable way. This enables a system that would traditionally act as a server to initiate HTTP requests towards a system that traditionally acts as a client.
+
+In HTTP deployments, the client initiates requests and the server responds. However, a growing set of use cases such as dynamic service hosting, edge computing, NAT traversal, privacy-preserving architectures, and application-layer rendezvous require that the entity in the HTTP server role be the one to initiate a transport-level connection as a client. PTTH allows such "transposed" transactions, where a transport-level client can act as an HTTP server and a transport-level server can act as an HTTP client. That way, the transport-level client can receive HTTP requests from a transport-level server and respond to them, under explicit agreement and control.
+
+The PTTH protocol will reuse existing HTTP concepts and designs wherever possible. The protocol will define how one endpoint can indicate its willingness to receive HTTP requests from the remote peer, how such requests are carried, and how security and interoperability are maintained across different versions of HTTP.
+
+## Scope
+
+The working group will produce a standards-track specification that defines:
+
+* A protocol mechanism to enable a transport-level client to receive HTTP requests from a transport-level server and respond to them
+* Rules and constraints for how transposed HTTP requests and responses are encoded and transported
+* Negotiation and signaling mechanisms
+* Security and privacy considerations
+* Authentication, authorization, and origin constraints
+* Compatibility and applicability to existing HTTP versions
+* Guidance for implementation and deployment in diverse environments
+
+## Out of Scope
+
+* Developing transport mechanisms for protocols other than HTTP
+* Specification of usage-specific signaling or policy frameworks (though such frameworks may use PTTH once standardized)
+* Developing locator mechanisms for server discovery
+
+## Milestones
+
+Working Group adoption of an initial draft specification: X months from chartering
+Working Group Last Call: Y months from chartering
+Submission to the IESG for publication as a Proposed Standard: Z months from chartering
+
+## Liaison
+
+The PTTH Working Group will coordinate closely with the HTTP Working Group (HTTPBis), to ensure architectural alignment with existing and future versions of HTTP.
