@@ -12,8 +12,6 @@ The working group will produce a standards-track specification that defines:
 
 * A protocol mechanism to enable a transport-level client to receive HTTP requests from a transport-level server and respond to them
 * Rules and constraints for how transposed HTTP requests and responses are encoded and transported
-* Negotiation and signaling mechanisms
-* Security and privacy considerations
 * Authentication, authorization, and origin constraints
 * Compatibility and applicability to existing HTTP versions
 * Guidance for implementation and deployment in diverse environments
