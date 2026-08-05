@@ -29,7 +29,8 @@ specification(s) that define(s):
 * A protocol mechanism to enable a transport-layer client to receive HTTP
 requests from a transport-layer server and respond to them
 * The authentication of the different actors, by integrating existing schemes
-* Tools that can help guide routing of requests over transposed transport
+* Tools that can help guide routing of requests from transport-layer servers
+to transport-layer clients
 * Compatibility and applicability to existing HTTP versions
 * Optionally, guidance for implementation and deployment in diverse
 environments
