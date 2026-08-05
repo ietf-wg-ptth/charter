@@ -23,8 +23,7 @@ are carried, and how security and interoperability are maintained.
 
 ## Scope
 
-The working group will produce a (or a combination of) standards-track
-specification(s) that define(s):
+The working group will produce standards-track specifications that define:
 
 * A protocol mechanism to enable a transport-layer client to receive HTTP
 requests from a transport-layer server and respond to them
