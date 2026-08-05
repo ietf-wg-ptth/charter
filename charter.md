@@ -24,7 +24,8 @@ different versions of HTTP.
 
 ## Scope
 
-The working group will produce a standards-track specification that defines:
+The working group will produce a (or a combination of) standards-track
+specification(s) that define(s):
 
 * A protocol mechanism to enable a transport-layer client to receive HTTP
 requests from a transport-layer server and respond to them
