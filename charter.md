@@ -9,8 +9,8 @@ entity that acts in the HTTP server role.
 In HTTP deployments, the client initiates requests and the server responds.
 However, a growing set of use cases such as dynamic service hosting, edge
 computing, NAT traversal, privacy-preserving architectures, and
-application-layer rendezvous require that the entity in the HTTP server role
-be the one to initiate a transport-layer connection. PTTH allows such
+application-layer rendezvous benefit from having the entity in the HTTP server
+role be the one to initiate a transport-layer connection. PTTH allows such
 "transposed" transactions, where a transport-layer client can act as an HTTP
 server and a transport-layer server can act as an HTTP client. That way, the
 transport-layer client can receive HTTP requests from a transport-layer
