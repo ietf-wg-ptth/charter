@@ -44,6 +44,7 @@ frameworks may use PTTH once standardized)
 * Developing new transport protocols or extending existing ones
 * Protocol mechanisms for requesting additional capacity from transport-layer
 clients/HTTP servers
+* Defining new identity mechanisms
 
 ## Milestones
 
