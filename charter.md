@@ -19,8 +19,7 @@ server and respond to them, under explicit agreement and control.
 The PTTH protocol will reuse existing HTTP concepts and designs wherever
 possible. The protocol will define how one endpoint can indicate its
 willingness to receive HTTP requests from the remote peer, how such requests
-are carried, and how security and interoperability are maintained across
-different versions of HTTP.
+are carried, and how security and interoperability are maintained.
 
 ## Scope
 
