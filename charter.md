@@ -55,4 +55,5 @@ clients/HTTP servers
 
 The PTTH Working Group will coordinate closely with the HTTP Working Group
 (HTTPBis), to ensure architectural alignment with existing and future versions
-of HTTP.
+of HTTP. The group will also liaise with the W3C Technical Architecture Group
+(TAG).
