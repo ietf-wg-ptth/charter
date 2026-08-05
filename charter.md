@@ -11,16 +11,17 @@ The PTTH protocol will reuse existing HTTP concepts and designs wherever possibl
 The working group will produce a standards-track specification that defines:
 
 * A protocol mechanism to enable a transport-layer client to receive HTTP requests from a transport-layer server and respond to them
-* Rules and constraints for how transposed HTTP requests and responses are encoded and transported
-* Authentication, authorization, and origin constraints
+* How a proxy authenticates workers
+* How a proxy might decide to route a given request to specific workers
 * Compatibility and applicability to existing HTTP versions
-* Guidance for implementation and deployment in diverse environments
+* Optionally, guidance for implementation and deployment in diverse environments
 
 ## Out of Scope
 
 * Developing transport mechanisms for protocols other than HTTP
 * Specification of usage-specific signaling or policy frameworks (though such frameworks may use PTTH once standardized)
 * Developing locator mechanisms for server discovery
+* Developing new transport protocols or extending existing ones
 * Protocol mechanisms for requesting additional capacity from transport-layer clients/HTTP servers
 
 ## Milestones
