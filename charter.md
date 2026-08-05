@@ -37,7 +37,7 @@ environments
 ## Out of Scope
 
 * Changing HTTP semantics
-* Developing transport mechanisms for protocols other than HTTP
+* Developing mechanisms for reversing application-layer protocols other than HTTP
 * Specification of usage-specific signaling or policy frameworks (though such
 frameworks may use PTTH once standardized)
 * Developing locator mechanisms for transport-layer server discovery
