@@ -47,11 +47,9 @@ clients/HTTP servers
 
 ## Milestones
 
-* Working Group adoption of an initial draft specification: X months from
-chartering
-* Working Group Last Call: Y months from chartering
-* Submission to the IESG for publication as a Proposed Standard: Z months
-from chartering
+* Working Group adoption of an initial draft specification
+* Working Group Last Call
+* Submission to the IESG for publication as a Proposed Standard
 
 ## Liaison
 
