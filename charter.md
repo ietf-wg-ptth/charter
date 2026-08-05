@@ -27,15 +27,19 @@ The working group will produce standards-track specifications that define:
 
 * A protocol mechanism to enable a transport-layer client to receive HTTP
 requests from a transport-layer server and respond to them
-* How a proxy authenticates workers
-* How a proxy might decide to route a given request to specific workers
+* The authentication of the different actors, by integrating existing schemes
+* Tools that can help guide routing of requests from transport-layer servers
+to transport-layer clients
 * Compatibility and applicability to existing HTTP versions
 * Optionally, guidance for implementation and deployment in diverse
 environments
 
 ## Out of Scope
 
+The following items are not in scope for the working group:
+
 * Changing HTTP semantics
+* Developing new authentication or identity systems
 * Developing mechanisms for reversing application-layer protocols other than HTTP
 * Specification of usage-specific signaling or policy frameworks (though such
 frameworks may use PTTH once standardized)
@@ -43,7 +47,6 @@ frameworks may use PTTH once standardized)
 * Developing new transport protocols or extending existing ones
 * Protocol mechanisms for requesting additional capacity from transport-layer
 clients/HTTP servers
-* Defining new identity mechanisms
 
 ## Milestones
 
