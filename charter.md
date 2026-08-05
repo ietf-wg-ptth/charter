@@ -22,6 +22,7 @@ The working group will produce a standards-track specification that defines:
 * Specification of usage-specific signaling or policy frameworks (though such frameworks may use PTTH once standardized)
 * Developing locator mechanisms for server discovery
 * Developing new transport protocols or extending existing ones
+* Protocol mechanisms for requesting additional capacity from transport-layer clients/HTTP servers
 
 ## Milestones
 
